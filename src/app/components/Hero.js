@@ -1,9 +1,6 @@
-import React from "react";
 import styles from "@/app/styles/hero.module.css";
 import { SiInstagram, SiGithub, SiReplit } from "react-icons/si";
-import Link from "next/link";
 import RouteButton from "./RouteButton";
-// import pawanImg from "@/../public/pawan.png"
 
 export default function Hero() {
   return (
@@ -21,22 +18,28 @@ export default function Hero() {
           web interfaces. Proficient in React, state management, and API
           integration. Strong focus on code quality, testing, and performance.
         </p>
-        
+
         <RouteButton buttoneText="Contact" route="/#contact" />
       </div>
 
       <div className={styles.hero__social}>
-        <a href="" className={styles.hero__social_icon}>
+        <a
+          href="https://instagram.com/paone_pk"
+          target="_blank"
+          className={styles.hero__social_icon}
+        >
           <SiInstagram />
         </a>
         <a
           href="https://github.com/paonep1"
+          target="_blank"
           className={styles.hero__social_icon}
         >
           <SiGithub />
         </a>
         <a
           href="https://replit.com/@paonep1"
+          target="_blank"
           className={styles.hero__social_icon}
         >
           <SiReplit />

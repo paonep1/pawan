@@ -76,6 +76,9 @@
   .hero__social {
     margin-top: 40px;
   }
+  .hero__social_icon {
+    cursor: default;
+  }
 }
 
 @media (max-width: 555px) {
