@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from "react";
 import styles from "../styles/skills.module.css";
-import { FaHtml5, FaCss3Alt, FaPaintBrush, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
 import { TbDeviceAnalytics } from "react-icons/tb";
@@ -24,7 +24,7 @@ export default function Skills() {
             I bring a diverse set of skills and experiences that make me a
             valuable asset in various professional settings.
           </p>
-          <div className={styles.skills__data} data-aos='fade-up' >
+          <div className={styles.skills__data} data-aos='fade-right' >
             <div className={styles.skills__names}>
               <FaHtml5 />
               <span className={styles.skills__name}>HTML5</span>
@@ -36,7 +36,7 @@ export default function Skills() {
               <span className={styles.skills__percentage}>95%</span>
             </div>
           </div>
-          <div className={styles.skills__data} data-aos='fade-up' >
+          <div className={styles.skills__data} data-aos='fade-right' >
             <div className={styles.skills__names}>
               <FaCss3Alt />
               <span className={styles.skills__name}>CSS3</span>
@@ -48,7 +48,7 @@ export default function Skills() {
               <span className={styles.skills__percentage}>85%</span>
             </div>
           </div>
-          <div className={styles.skills__data} data-aos='fade-up' >
+          <div className={styles.skills__data} data-aos='fade-right' >
             <div className={styles.skills__names}>
               <BiLogoJavascript />
               <span className={styles.skills__name}>JAVASCRIPT</span>
@@ -58,7 +58,7 @@ export default function Skills() {
               <span className={styles.skills__percentage}>65%</span>
             </div>
           </div>
-          <div className={styles.skills__data} data-aos='fade-up' >
+          <div className={styles.skills__data} data-aos='fade-right' >
             <div className={styles.skills__names}>
               <TbDeviceAnalytics />
               <span className={styles.skills__name}>SEO</span>
@@ -70,7 +70,7 @@ export default function Skills() {
               <span className={styles.skills__percentage}>85%</span>
             </div>
           </div>
-          <div className={styles.skills__data} data-aos='fade-up' >
+          <div className={styles.skills__data} data-aos='fade-right' >
             <div className={styles.skills__names}>
               <FaReact />
               <span className={styles.skills__name}>REACT JS</span>
@@ -82,7 +82,7 @@ export default function Skills() {
               <span className={styles.skills__percentage}>65%</span>
             </div>
           </div>
-          <div className={styles.skills__data} data-aos='fade-up' >
+          <div className={styles.skills__data} data-aos='fade-right' >
             <div className={styles.skills__names}>
               <SiNextdotjs />
               <span className={styles.skills__name}>NEXT JS</span>
