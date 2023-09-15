@@ -14,7 +14,6 @@ const dateTime = () => {
 };
 
 export default function Contact() {
-  const hostName = window.location.hostname;
   const [loading, setLoading] = useState(false);
   const [formAlert, setFormAlert] = useState(false);
   const [data, setData] = useState({
@@ -36,7 +35,7 @@ export default function Contact() {
     let currentDate = dateTime();
     let myData = Object.assign(data, currentDate);
 
-    const res = await fetch(`https://${hostName}/api/contact`, {
+    const res = await fetch("/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
