@@ -1,0 +1,35 @@
+.footer{
+    padding: 15px 20px;
+    background: #000;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_social{
+    min-width: 115px;
+    margin-left: 15px;
+}
+.footer_social a{
+    margin-right: 15px;
+}
+.footer_social svg{
+    color: #d5d5d5;
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+.footer_social svg:hover{
+    color: #d8b4fe;
+}
+
+@media(max-width:455px) {
+    .footer_menu{
+        flex-direction: column-reverse;
+        align-items: normal;
+    }
+    .footer_social{
+        margin: 0 0 10px 0;
+    }
+
+}
