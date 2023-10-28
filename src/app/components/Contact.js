@@ -32,6 +32,7 @@ export default function Contact() {
 
     setLoading(true);
 
+    
     let currentDate = dateTime();
     let myData = Object.assign(data, currentDate);
 
@@ -42,6 +43,7 @@ export default function Contact() {
       },
       body: JSON.stringify(myData),
     });
+    console.log(res);
     const contactData = await res.json();
 
     if (contactData.result === true) {
